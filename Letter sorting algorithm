@@ -1,0 +1,6 @@
+// This algorithm sorts the letters of a particular expression, prioritising the uppercase ones for each letter.
+
+
+const sorter = expression => expresion.split("").sort((a,b)=>a.localeCompare(b,"kf",{caseFirst:"upper"})).join("");
+
+sorter("{expression goes here}")
