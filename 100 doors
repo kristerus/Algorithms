@@ -1,0 +1,13 @@
+const getFinalOpenedDoors=numDoors=> {
+let doors = [];
+let i = 1, iSquared = i*i;
+
+  while (iSquared <= numDoors) {
+    doors.push(iSquared);
+    i++; iSquared = i*i;
+  }
+
+  return doors;
+}
+
+// This algorithm aims to find the number of opened doors in the end of the search through the 100 doors. Rosetta code challenge, interview preparation.
