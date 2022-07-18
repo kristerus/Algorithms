@@ -1,0 +1,8 @@
+//This simple algorithm aims to find the distance between two points with given coordinates in a plane.
+//Taken by the codewars challenge with the same name.
+
+
+
+const distanceBetweenPoints=(a, b)=>Math.sqrt(Math.pow(a.x-b.x,2)+Math.pow(a.y-b.y,2))
+
+
